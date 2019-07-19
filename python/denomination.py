@@ -1,0 +1,50 @@
+x=int(input("Enter the number:"))
+if(x>=500):
+    c=x
+    c=c//500
+    s=x%500
+    print("500:",c)
+    print(s)
+if(s>=100):
+    b=s
+    b=b//100
+    p=s%100
+    print("100:",b)
+    print(p)
+if(p>=50):
+    b=p
+    b=b//50
+    s=p%50
+    print("50:",b)
+    print(s)
+if(s>=20):
+    b=s
+    b=b//20
+    p=s%20
+    print("20:",b)
+    print(p)
+if(s>=10):
+    b=s
+    b=b//10
+    p=s%10
+    print("10:",b)
+    print(p)
+if(s>=5):
+    b=s
+    b=b//5
+    p=s%5
+    print("5:",b)
+    print(p)
+if(s>=2):
+    b=s
+    b=b//2
+    p=s%2
+    print(b)
+    print(p)
+if(s>=1):
+    b=s
+    b=b//1
+    p=s%1
+    print("1:",b)
+    print(p)
+    
